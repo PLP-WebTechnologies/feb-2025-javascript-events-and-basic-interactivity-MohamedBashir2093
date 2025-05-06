@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Interactive Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Playground</h1>
+
+  <button id="colorBtn">Change My Color</button>
+  <div id="hoverBox">Hover Over Me</div>
+  <p id="keyOutput">Press any key...</p>
+  <button id="secretBtn">Double-click Me</button>
+
+  <section id="gallery">
+    <img id="mainImage" src="MA.jpg" alt="Main">
+    <div class="thumbnails">
+      <img src="mask.webp" alt="Thumb 1">
+      <img src="money.webp" alt="Thumb 2">
+      <img src="/th.jpg" alt="Thumb 3">
+    </div>
+  </section>
+
+  <section class="tabs">
+    <button class="tab" data-target="tab1">Tab 1</button>
+    <button class="tab" data-target="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content active">This is content for Tab 1.</div>
+    <div id="tab2" class="tab-content">This is content for Tab 2.</div>
+  </section>
+
+  <form id="userForm">
+    <input type="email" id="email" placeholder="Email" required>
+    <small id="emailFeedback"></small><br>
+    <input type="password" id="password" placeholder="Password" required>
+    <small id="passwordFeedback"></small><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
